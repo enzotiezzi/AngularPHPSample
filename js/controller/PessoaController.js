@@ -3,7 +3,6 @@
 	app
 	.controller('PessoaController', function($http)
 	{
-		var viewModel = this;
 		this.nome;
 		this.idade;
 
