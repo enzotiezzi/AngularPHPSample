@@ -14,6 +14,6 @@
 		<div>Idade: <input type="text" ng-model="pessoaCtrl.idade"></div>
 		<div><input type="submit" value="Cadastrar"></div>
 	</form>
-	{{"Hello"+"boy"}}
+	{{"Hello"+"OpenShift"}}
 </body>
 </html>
