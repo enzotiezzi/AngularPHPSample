@@ -6,13 +6,8 @@
 		this.nome;
 		this.idade;
 
-		this.submit = function () 
+		this.submit = function (pessoa) 
 		{
-			var pessoa = {
-				nome : this.nome,
-				idade : this.idade
-			};
-
 			$http.post('../server/action/PessoaAction.php', pessoa)
 			.success(function(data, status, headers, config)
 			{
